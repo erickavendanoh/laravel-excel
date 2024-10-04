@@ -9,3 +9,13 @@
 -" php artisan make:seeder UsuarioSeeder "
 
 -" php artisan db:seed "
+
+
+
+
+
+-" composer require maatwebsite/excel "
+
+-" php artisan make:import UsuarioImport --model=Usuario "
+
+-" hp artisan make:export UsuarioExport --model=Usuario "
