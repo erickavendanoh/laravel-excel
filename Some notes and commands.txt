@@ -1,0 +1,11 @@
+-" php artisan make:model Usuario -mc  " 
+
+-Se modifica el database\migrations\2024_10_04_065908_create_usuarios_table.php
+
+-" php artisan migrate "
+
+-" php artisan make:factory UsuarioFactory --model=Usuario "
+
+-" php artisan make:seeder UsuarioSeeder "
+
+-" php artisan db:seed "
